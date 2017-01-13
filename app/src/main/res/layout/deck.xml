@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:text="Cathegories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/textView"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="24sp"
+        android:fontFamily="casual"
+        android:textAllCaps="true"
+        android:textStyle="normal|bold|italic"
+        android:textAlignment="center" />
+
+    <Button
+        android:text="Play"
+        android:paddingTop="11dp"
+        android:layout_width="match_parent"
+        android:id="@+id/play"
+        android:layout_gravity="bottom"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:textStyle="normal|bold|italic"
+        android:textSize="30sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:fillViewport="true"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="13dp"
+        android:layout_height="460dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:weightSum="1"
+            android:layout_marginTop="0dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_height="530dp">
+            <CheckBox
+                android:text="Countries"
+                android:paddingTop="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/countries"
+                android:fontFamily="casual"
+                android:textStyle="normal|bold|italic"
+                android:textSize="24sp"
+                android:textColor="@color/colorPrimaryDark" />
+            <CheckBox
+                android:text="Geography"
+                android:paddingTop="11dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/countries"
+                android:id="@+id/geography"
+                android:fontFamily="casual"
+                android:textStyle="normal|bold|italic"
+                android:textSize="24sp"
+                android:textColor="@color/colorPrimaryDark" />
+            <CheckBox
+                android:text="Biology"
+                android:paddingTop="11dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/geography"
+                android:id="@+id/biology"
+                android:fontFamily="casual"
+                android:textStyle="normal|bold|italic"
+                android:textSize="24sp"
+                android:textColor="@color/colorPrimaryDark" />
+            <CheckBox
+                android:text="Dessert"
+                android:paddingTop="11dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Biology"
+                android:id="@+id/dessert"
+                android:fontFamily="casual"
+                android:textStyle="normal|bold|italic"
+                android:textSize="24sp"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <CheckBox
+                android:text="Astronomy"
+                android:paddingTop="11dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/desserts"
+                android:id="@+id/astronomy"
+                android:fontFamily="casual"
+                android:textStyle="normal|bold|italic"
+                android:textSize="24sp"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <CheckBox
+                android:text="Sports"
+                android:paddingTop="11dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/astronomy"
+                android:id="@+id/sports"
+                android:fontFamily="casual"
+                android:textStyle="normal|bold|italic"
+                android:textSize="24sp"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <CheckBox
+                android:text="Computer Science"
+                android:paddingTop="11dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/computerScience"
+                android:layout_below="@+id/sports"
+                android:fontFamily="casual"
+                android:textStyle="normal|bold|italic"
+                android:textSize="24sp"
+                android:textColor="@color/colorPrimaryDark" />
+            <CheckBox
+                android:text="Pirates"
+                android:paddingTop="11dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/computerScience"
+                android:id="@+id/pirates"
+                android:fontFamily="casual"
+                android:textStyle="normal|bold|italic"
+                android:textSize="24sp"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <CheckBox
+                android:text="Camping/Backpacking"
+                android:paddingTop="11dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pirates"
+                android:id="@+id/camping"
+                android:fontFamily="casual"
+                android:textStyle="normal|bold|italic"
+                android:textSize="24sp"
+                android:textColor="@color/colorPrimaryDark" />
+            <CheckBox
+                android:text="Physicss"
+                android:paddingTop="11dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/camping"
+                android:id="@+id/physics"
+                android:fontFamily="casual"
+                android:textStyle="normal|bold|italic"
+                android:textSize="24sp"
+                android:textColor="@color/colorPrimaryDark" />
+            <CheckBox
+                android:text="Car Types"
+                android:paddingTop="11dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/physics"
+                android:id="@+id/car"
+                android:fontFamily="casual"
+                android:textStyle="normal|bold|italic"
+                android:textSize="24sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_weight="0.04" />
+            <CheckBox
+                android:text="Musical Instruments"
+                android:paddingTop="11dp"
+                android:id="@+id/instrument"
+                android:layout_below="@+id/car"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

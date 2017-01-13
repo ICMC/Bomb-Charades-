@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_display_words"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.anna_.bombcharades.DisplayWords">
+
+
+    <RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true">
+
+
+        <View
+            android:id="@+id/space4"
+            android:background="@color/backgroundTime"
+            android:layout_width="384dp"
+            android:layout_below="@+id/space3"
+            android:layout_toLeftOf="@+id/pass"
+            android:layout_toStartOf="@+id/pass"
+            android:layout_height="27dp" />
+        <View
+            android:id="@+id/space5"
+            android:background="@color/backgroundTime"
+            android:layout_width="384dp"
+            android:layout_below="@+id/space4"
+            android:layout_toRightOf="@+id/right"
+            android:layout_toEndOf="@+id/right"
+            android:layout_height="27dp" />
+
+
+        <View
+            android:id="@+id/space6"
+            android:background="@color/backgroundTime"
+            android:layout_width="384dp"
+            android:layout_below="@+id/space5"
+            android:layout_toLeftOf="@+id/pass"
+            android:layout_toStartOf="@+id/pass"
+            android:layout_height="27dp" />
+        <View
+            android:id="@+id/space7"
+            android:background="@color/backgroundTime"
+            android:layout_width="384dp"
+            android:layout_below="@+id/space6"
+            android:layout_toLeftOf="@+id/pass"
+            android:layout_toStartOf="@+id/pass"
+            android:layout_height="27dp" />
+        <View
+            android:id="@+id/space8"
+            android:background="@color/backgroundTime"
+            android:layout_width="384dp"
+            android:layout_below="@+id/space7"
+            android:layout_toLeftOf="@+id/pass"
+            android:layout_toStartOf="@+id/pass"
+            android:layout_height="27dp" />
+        <View
+            android:id="@+id/space9"
+            android:background="@color/backgroundTime"
+            android:layout_width="384dp"
+            android:layout_below="@+id/space7"
+            android:layout_toLeftOf="@+id/pass"
+            android:layout_toStartOf="@+id/pass"
+            android:layout_height="27dp" />
+        <View
+            android:id="@+id/space10"
+            android:background="@color/backgroundTime"
+            android:layout_width="384dp"
+            android:layout_below="@+id/space9"
+            android:layout_toLeftOf="@+id/pass"
+            android:layout_toStartOf="@+id/pass"
+            android:layout_height="27dp" />
+        <View
+            android:id="@+id/space11"
+            android:background="@color/backgroundTime"
+            android:layout_width="384dp"
+            android:layout_below="@+id/space10"
+            android:layout_toLeftOf="@+id/pass"
+            android:layout_toStartOf="@+id/pass"
+            android:layout_height="27dp" />
+        <View
+            android:id="@+id/space12"
+            android:background="@color/backgroundTime"
+            android:layout_width="384dp"
+            android:layout_below="@+id/space11"
+            android:layout_toLeftOf="@+id/pass"
+            android:layout_toStartOf="@+id/pass"
+            android:layout_height="27dp" />
+        <View
+            android:id="@+id/space13"
+            android:background="@color/backgroundTime"
+            android:layout_width="384dp"
+            android:layout_below="@+id/space12"
+            android:layout_toLeftOf="@+id/pass"
+            android:layout_toStartOf="@+id/pass"
+            android:layout_height="27dp" />
+
+
+        <View
+            android:id="@+id/space14"
+            android:background="@color/backgroundTime"
+            android:layout_width="384dp"
+            android:layout_below="@+id/space13"
+            android:layout_toRightOf="@+id/right"
+            android:layout_toEndOf="@+id/right"
+            android:layout_height="27dp"
+            android:layout_alignParentBottom="true"/>
+
+
+
+
+        <View
+            android:id="@+id/space3"
+            android:background="@color/backgroundTime"
+            android:layout_width="384dp"
+            android:layout_below="@+id/space2"
+            android:layout_toRightOf="@+id/right"
+            android:layout_toEndOf="@+id/right"
+            android:layout_height="25dp" />
+
+        <Button
+            android:text=""
+            android:layout_height="match_parent"
+            android:id="@+id/right"
+            android:background="@color/GreenAccent"
+            style="@android:style/Widget.DeviceDefault.Button.Borderless"
+            android:layout_alignParentTop="true"
+            android:layout_toStartOf="@+id/space4"
+            android:layout_width="170dp" />
+
+        <Button
+            android:id="@+id/pass"
+            android:text=""
+            android:layout_height="match_parent"
+            android:background="@color/RedAccent"
+            android:layout_width="150dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <View
+            android:id="@+id/space2"
+            android:background="@color/backgroundTime"
+            android:layout_width="385dp"
+            android:layout_below="@+id/space1"
+            android:layout_toRightOf="@+id/right"
+            android:layout_toEndOf="@+id/right"
+            android:layout_height="27dp" />
+
+        <TextView
+            android:text="TextView"
+            android:id="@+id/word"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textAlignment="center"
+            android:layout_height="180dp"
+            android:layout_width="385dp"
+            android:layout_alignBaseline="@+id/right"
+            android:layout_alignBottom="@+id/right"
+            android:layout_toLeftOf="@+id/pass"
+            android:layout_toStartOf="@+id/pass" />
+
+        <View
+            android:id="@+id/space1"
+            android:background="@color/backgroundTime"
+            android:layout_width="384dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/space2"
+            android:layout_alignEnd="@+id/space2"
+            android:layout_height="27dp" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
